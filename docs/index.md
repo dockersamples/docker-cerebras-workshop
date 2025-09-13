@@ -1,9 +1,9 @@
-# Welcome to DevDucks Multi-Agent Workshop
+# Welcome to Docker DevDuck Multi-Agent Workshop
 
 !!! tip "Workshop Duration"
     Approximately 1-2 hours of hands-on learning
 
-Welcome to a Docker DevDucks Multi-Agent workshop that will guide you through building and deploying a Multi-agent system using Docker, Google Agent Development Kit (ADK), and Cerebras AI.
+Welcome to a Docker DevDuck Multi-Agent workshop that will guide you through building and deploying a Multi-agent system using Docker, Google Agent Development Kit (ADK), and Cerebras AI.
 
 ## What You'll Learn
 
