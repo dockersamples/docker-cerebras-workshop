@@ -1,0 +1,117 @@
+site_name: Docker DevDucks Multi-Agent Workshop
+site_description: A comprehensive workshop for building multi-agent systems with Docker and Cerebras AI
+site_author: Docker Workshop Team
+site_url: https://dockersamples.github.io/docker-cerebras-workshop
+
+repo_name: dockersamples/docker-cerebras-demo
+repo_url: https://github.com/dockersamples/docker-cerebras-demo
+
+theme:
+  name: material
+  logo: https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png
+  favicon: https://www.docker.com/favicon.ico
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - toc.integrate
+    - content.code.copy
+    - content.code.annotate
+    - navigation.footer
+
+plugins:
+  - search
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: docker
+      repo: docker-cerebras-workshop
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - Home:
+    - Introduction: index.md
+    - Prerequisites: prerequisites.md
+    - System Overview: overview.md
+  - Setup:
+    - Getting Started: getting-started.md
+    - Environment Setup: environment-setup.md
+    - Deployment: deployment.md
+  - Hands-On:
+    - Basic Interaction: basic-interaction.md
+    - Local Agent Tasks: local-agent.md
+    - Cerebras Analysis: cerebras-analysis.md
+    - Agent Routing: agent-routing.md
+  - Advanced:
+    - Advanced Features: advanced-features.md
+    - Troubleshooting: troubleshooting.md
+    - Best Practices: best-practices.md
+    - Next Steps: next-steps.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ajeetraina/docker-cerebras-demo
+      name: Source Repository
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/
+      name: Docker Hub
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Copyright &copy; 2025 Docker Workshop Team
