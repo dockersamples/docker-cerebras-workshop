@@ -21,6 +21,16 @@ The workshop is structured as an interactive learning experience with:
 - **Advanced Features**: Token streaming and model configuration
 - **Best Practices**: Production deployment and optimization
 
+## 🐳 Run as a Docker container
+
+Clone the repo and follow the instructions to run this workshop inside a Docker container
+
+```
+docker build -t devduck .
+docker run -p 8000:8000 devduck 
+```
+
+
 ## 🛠️ Local Development
 
 To run this workshop site locally:
