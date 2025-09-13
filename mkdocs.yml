@@ -4,7 +4,7 @@ site_author: Docker Workshop Team
 site_url: https://dockersamples.github.io/docker-cerebras-workshop
 
 repo_name: dockersamples/docker-cerebras-demo
-repo_url: https://github.com/dockersamples/docker-cerebras-demo
+repo_url: https://github.com/dockersamples/docker-cerebras-workshop
 
 theme:
   name: material
