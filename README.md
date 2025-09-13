@@ -79,27 +79,5 @@ After completing this workshop, you will be able to:
 - Understand inter-agent communication patterns
 - Apply best practices for AI agent orchestration
 
-## 🔗 Related Resources
 
-- [Docker Cerebras Demo Repository](https://github.com/ajeetraina/docker-cerebras-demo)
-- [Docker Documentation](https://docs.docker.com/)
-- [Cerebras AI Documentation](https://docs.cerebras.ai/)
-- [MkDocs Documentation](https://www.mkdocs.org/)
-- [Material for MkDocs](https://sqlfx.github.io/mkdocs-material/)
 
-## 🤝 Contributing
-
-Contributions to improve this workshop are welcome! Please feel free to:
-
-- Report issues or bugs
-- Suggest improvements to content or structure
-- Add new exercises or examples
-- Improve documentation clarity
-
-## 📄 License
-
-This workshop is available under the MIT License.
-
----
-
-**Ready to start?** 🎉 [Begin the workshop →](https://yourusername.github.io/docker-cerebras-workshop/)
