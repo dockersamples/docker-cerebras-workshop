@@ -54,6 +54,8 @@ docker model pull hf.co/menlo/lucy-gguf:q8_0
 ```
 
 !!! tip "Why we choose these models"
+    These models implement a tiered intelligence architecture designed for optimal performance and resource efficiency.
+    
     Jan-Nano is specifically designed and optimized to work seamlessly with Model Context Protocol (MCP) servers, enabling efficient   integration with various research tools and data sources JanJan. This is perfect for a coordinator that needs to route requests to different agents and tools. Routing & Orchestration Focus: The model excels at routing tasks, with MCP-agent providing router implementations including EmbeddingRouter for classification and Intent Classifier patterns that identify the most relevant categories for routing
 
 ## API Requirements
