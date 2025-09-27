@@ -44,6 +44,18 @@ Before starting this workshop, ensure you have the following requirements met. T
     - Optimized for M1/M2/M3 chips
     - No additional driver setup required
 
+### Enable Docker Model Runner
+
+Ensure that you've enabled Docker Model Runner using Docker Dashboard > Settings > AI > Model Runner. Download the following models beforehand.
+
+```
+docker model pull hf.co/menlo/jan-nano-gguf:q4_k_m
+docker model pull hf.co/menlo/lucy-gguf:q8_0
+```
+
+!!! tip "Why we choose these models"
+    Jan-Nano is specifically designed and optimized to work seamlessly with Model Context Protocol (MCP) servers, enabling efficient   integration with various research tools and data sources JanJan. This is perfect for a coordinator that needs to route requests to different agents and tools. Routing & Orchestration Focus: The model excels at routing tasks, with MCP-agent providing router implementations including EmbeddingRouter for classification and Intent Classifier patterns that identify the most relevant categories for routing
+
 ## API Requirements
 
 ### 🧠 Cerebras API Access
