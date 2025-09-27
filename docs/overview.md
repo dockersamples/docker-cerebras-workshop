@@ -96,15 +96,3 @@ In the following sections, you'll:
 4. Practice real-world programming scenarios
 5. Explore advanced features and customization options
 
-!!! tip "Architecture Diagram"
-    ```mermaid
-    graph TB
-        User[User Interface] --> DevDuck[DevDuck Coordinator]
-        DevDuck --> LocalAgent[Local Agent]
-        DevDuck --> CerebrasAgent[Cerebras Agent]
-        LocalAgent --> Docker[Docker Compose]
-        CerebrasAgent --> Docker
-        DevDuck --> Docker
-        Docker --> FastAPI[FastAPI Web Interface]
-        CerebrasAgent --> CerebrasAPI[Cerebras API]
-    ```
