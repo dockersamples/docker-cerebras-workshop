@@ -58,6 +58,8 @@ docker model pull hf.co/menlo/lucy-gguf:q8_0
     
     Jan-Nano is specifically designed and optimized to work seamlessly with Model Context Protocol (MCP) servers, enabling efficient   integration with various research tools and data sources JanJan. This is perfect for a coordinator that needs to route requests to different agents and tools. Routing & Orchestration Focus: The model excels at routing tasks, with MCP-agent providing router implementations including EmbeddingRouter for classification and Intent Classifier patterns that identify the most relevant categories for routing
 
+    Lucy is an ideal choice for your Local Agent because its 1.7B parameter size strikes the perfect balance between capability and efficiency for local execution on consumer hardware. Built on the same Qwen3 architecture as Jan-Nano, Lucy ensures seamless compatibility within your agent ecosystem while being specifically optimized for conversational development tasks and code generation. Its compact size means lightning-fast response times for the quick Node.js queries, code explanations, and general development tasks that form the bulk of day-to-day programming work, while consuming minimal system resources. This allows Lucy to handle the high-frequency, low-complexity requests efficiently, leaving Jan-Nano free to focus on coordination decisions and Cerebras to tackle the truly complex computational challenges. The q8_0 quantization maintains excellent quality while ensuring Lucy can run smoothly locally, making it the perfect "first responder" agent that can instantly provide code snippets, explain concepts, and handle routine development questions without the latency or cost of cloud API calls.
+
 ## API Requirements
 
 ### 🧠 Cerebras API Access
